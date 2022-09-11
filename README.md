@@ -28,6 +28,7 @@ TODO:
 
 ISSUES:
  - Each time the program loops to fetch live data, micro stutter occurs in webview, quite annoying while typing. 
+ - Might not be working on other platforms, but feel free to try
  
 Different Rich Presence States, and how the interface currently looks:
 ![image](https://user-images.githubusercontent.com/66559391/189547495-f2704a99-e405-4ea9-b9d8-6a1d087a944a.png)
