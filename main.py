@@ -2,7 +2,7 @@ import sys, time
 
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QMainWindow, QApplication
-from PyQt5.QtWebEngineWidgets import *
+from PyQt5.QtWebEngineWidgets import QWebEngineView, QWebEnginePage
 from PyQt5.QtCore import QUrl, QThread, pyqtSignal
 from bs4 import BeautifulSoup
 from pypresence import Presence
