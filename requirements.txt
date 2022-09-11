@@ -1,0 +1,4 @@
+PyQt5==5.15.7
+PyQtWebEngine==5.15.6
+beautifulsoup4==4.11.1
+pypresence==4.2.1
