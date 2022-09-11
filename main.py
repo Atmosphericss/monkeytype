@@ -1,6 +1,5 @@
 import sys, time
 
-from PyQt5 import QtWebEngineWidgets
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from PyQt5.QtWebEngineWidgets import *
@@ -35,7 +34,7 @@ class Window(QMainWindow):
         self.show()
 
 #This class will stop JS errors being written to the console main.py was launched from
-class WebEnginePage(QtWebEngineWidgets.QWebEnginePage):
+class WebEnginePage(QWebEnginePage):
     def javaScriptConsoleMessage(self, level, msg, line, sourceID):
         pass
 
