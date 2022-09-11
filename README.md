@@ -11,6 +11,7 @@ To run this program, ensure all modules listed in requirements are installed wit
  - PyQtWebEngine
  - beautifulsoup4
  - pypresence
+
 Some of these modules only work on python versions above 3.8 so please ensure you are running this program from said version of Python.
 Run the program by navigating to the directory it is stored in with cmd and using python main.py 
 
